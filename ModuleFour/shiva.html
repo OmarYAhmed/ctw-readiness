@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>shiva_</title>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: #f5f0e8;
+      color: #1a1a1a;
+      font-family: 'DM Mono', monospace;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+
+    .card {
+      max-width: 520px;
+      width: 100%;
+    }
+
+    .name {
+      font-family: 'Instrument Serif', serif;
+      font-size: clamp(3rem, 10vw, 5.5rem);
+      line-height: 1;
+      letter-spacing: -2px;
+      margin-bottom: 6px;
+    }
+
+    .tagline {
+      font-size: 0.72rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: #888;
+      margin-bottom: 40px;
+    }
+
+    .divider {
+      border: none;
+      border-top: 1px solid #c8bfad;
+      margin-bottom: 32px;
+    }
+
+    .section-label {
+      font-size: 0.65rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: #aaa;
+      margin-bottom: 12px;
+    }
+
+    .bio {
+      font-size: 0.88rem;
+      line-height: 1.75;
+      color: #3a3a3a;
+      margin-bottom: 36px;
+    }
+
+    .courses {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 36px;
+    }
+
+    .tag {
+      font-size: 0.7rem;
+      letter-spacing: 0.08em;
+      padding: 5px 12px;
+      border: 1px solid #c8bfad;
+      border-radius: 2px;
+      background: transparent;
+      color: #1a1a1a;
+    }
+
+    .footer {
+      font-size: 0.7rem;
+      color: #aaa;
+      letter-spacing: 0.1em;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1 class="name">shiva_</h1>
+    <p class="tagline">High School · Brookfield, WI</p>
+
+    <hr class="divider">
+
+    <p class="section-label">About</p>
+    <p class="bio">
+      I just like tennis and running. Ran XC, love to code. That's pretty much it.
+    </p>
+
+    <p class="section-label">Interests</p>
+    <div class="courses">
+      <span class="tag">speedcubing</span>
+      <span class="tag">keyboards</span>
+      <span class="tag">tennis</span>
+      <span class="tag">pickleball</span>
+      <span class="tag">math</span>
+      <span class="tag">software engineering</span>
+      <span class="tag">brawl stars</span>
+    </div>
+
+    <p class="footer">content by shiva_ · styled by claude</p>
+  </div>
+</body>
+</html>
