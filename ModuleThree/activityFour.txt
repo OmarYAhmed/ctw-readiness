@@ -1,4 +1,4 @@
 This is the file for activty 4
 Each of you change any part of this file to whatever you want in your own branches,
-on this line specifically, change the following color to whatever you want: magenta
+on this line specifically, change the following color to whatever you want: Blue
 then try to make a pull request into dev.
