@@ -1,0 +1,53 @@
+/* Shared Math Hub Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+}
+
+nav {
+    background-color: #2c3e50;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Person 1: Navigation Link Styling & Interactive Hover */
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #f1c40f;
+    text-decoration: underline;
+}
+
+h1 {
+    color: #2980b9;
+}
+
+/* Person 2: Image Styling Upgrade */
+img {
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border: 2px solid #bdc3c7;
+    max-width: 100%;
+}
+
+/* Person 3: List Styling Upgrade */
+ul {
+    background-color: #ffffff;
+    border-left: 5px solid #2980b9;
+    padding: 20px 20px 20px 40px;
+    border-radius: 4px;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
